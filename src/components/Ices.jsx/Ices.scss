@@ -1,0 +1,63 @@
+
+section{
+    width: 100%;
+}
+
+.col-derecha-section img{
+    height: 700px;
+    width: 700px;
+}
+.col-derecha-section {
+    height: 700px;
+    width: 50%;
+}
+
+.col-izquierda-section{
+    height: 700px;
+    width: 50%;
+    display: grid;
+    place-items: center;
+    flex: 1 1 300px; /* Se encoge y crece, pero nunca será más pequeño que 300px */
+    min-width: 300px; /* Mínimo ancho antes de que el elemento se desplace hacia abajo */
+    box-sizing: border-box;
+    
+}
+.col-izquierda-info{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-left: 25%;
+}
+.col-izquierda-info h1{
+    font-size: 4rem;
+    color: #00c08b;
+    letter-spacing: 15px;
+    max-width: 40%;
+}
+.col-izquierda-info p{
+    color: #808080;
+}
+.col-izquierda-info button{
+    background: none;
+    color: #00C08B;
+    border: 2px solid #00C08B;
+    padding: 15px 70px 15px 70px;
+
+}
+.card-ice{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+*{
+    padding: 0%;
+    margin: 0px;
+}
+
+header{
+    width: 99%;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    justify-content: space-between;
+    padding: 15px;
+}
+.logo-header img{
+    margin-top: 13px;
+}
+
+.menu-header ul{
+
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    color: #00c08b;
+    font-weight: 600;
+}
+.social-header{
+
+    display: flex;
+    gap: 5px;
+}
+.social-header ul{
+
+    display: flex;
+    gap: 5px;
+    padding: 8px;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
